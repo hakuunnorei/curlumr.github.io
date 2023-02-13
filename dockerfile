@@ -1,7 +1,7 @@
 # Create a Jekyll containor form a Ruby Alphine image
 
 # At a minimum, use Ruby 2.5 or later
-FROM ruby:2.7-alpine3.15
+FROM ruby:3.0-alpine3.16
 
 # Add Jekyll dependencies to Alpine
 RUN apk update
